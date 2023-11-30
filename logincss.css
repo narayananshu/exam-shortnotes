@@ -1,0 +1,68 @@
+
+body{  
+  background: url('https://img.freepik.com/premium-vector/landscape-cartoon-scene-green-field-with-white-cloud-blue-sky_120819-2216.jpg'); 
+    position: relative;
+}
+.container::before{
+
+    content: "";
+    position:  absolute;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/010/058/200/small_2x/big-set-of-cute-leaves-from-different-kind-of-trees-isolated-set-of-colorful-autumn-leaf-oak-maple-rowan-and-acorns-realistic-cartoon-style-illustration-set-of-flat-foliage-free-vector.jpg');
+    height: 500px;
+    width: 500px;
+    z-index: -1;
+    opacity:0.2;   
+   
+margin-left: 430px;
+display: flex;
+align-items: center;
+
+}
+
+  .container h1{
+    margin-left: 500px;
+    padding: 10px;
+    color: blue;
+    font-family: cursive;
+  } 
+.login-box{
+    padding: 5px;
+    margin-top: 3px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.container input{
+    font-size: large;
+    background-color: blanchedalmond;
+    font-family: cursive;
+}
+.btn-box{
+    margin-left: 520px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 50px;
+   width: 342px;
+   font-size: medium;
+   font-style: oblique;
+   background-color: rgb(250, 184, 184);
+   color: white;
+
+}
+.btn-box:hover{
+    cursor:grabbing;
+}
+.container a{
+    margin-left: 520px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 90px;
+    font-family: cursive;
+    color: white;
+    font-size: 20px;
+ 
+}

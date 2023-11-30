@@ -1,0 +1,166 @@
+
+body{
+    background: url('https://thumbs.dreamstime.com/b/underwater-cartoon-background-fish-sand-seaweed-pearl-jellyfish-coral-starfish-ocean-sea-life-cute-design-vector-illustration-121517108.jpg'); 
+  
+}
+.container{
+    display: grid;
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+        'section section section aside'
+        'footer footer footer footer';
+
+}
+.container-subject{
+    display: grid;
+    grid-template-areas: 
+    /* ' class-url class-url class-url class-url' */
+    'class-url class-url class6-url class6-url';
+
+}
+.item-sub{
+    margin: 1px;
+    /* border: 2px solid blue; */
+    padding: 2px;
+}
+#class-url{
+    grid-area: class-url;
+    height: 200px;
+
+    width: 50%;
+}
+#class6-url{
+
+    grid-area: class6-url;
+    height: 200px;
+    width:30px
+    
+}
+.item{
+    margin: 1px;
+    /* border: 2px solid blue; */
+    padding: 2px;
+}
+
+#navbar{
+    grid-area: navbar;
+    list-style: none;
+    display: flex;
+ }
+    
+#navbar a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(223, 25, 25)
+}
+#section{
+        grid-area: section;
+        height: 530px;
+        display: flex;
+        margin-left: 170px ;
+}
+
+#aside{
+    grid-area: aside;
+}
+#footer{
+    grid-area: footer;
+
+}
+.box ::before {
+    content: "";
+    position:  absolute;
+
+    z-index: -1;
+    opacity:0.2;   
+   
+margin-left: 430px;
+display: flex;
+align-items: center; 
+}
+
+#section .box{
+    /* border: 2px solid red; */
+   height: 525px;
+   display: flex;
+  width: 33%;
+  justify-content: center;
+margin: 5px;
+font-family: cursive;
+box-shadow: 8px 8px 10px rgb(245, 199, 199);
+border-radius: 10px;
+color: white ;
+}
+
+.box{
+    background-color:grey;
+    opacity: 0.7;
+}
+.box .standard{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+   
+
+}
+.box a{
+    text-decoration: none;
+   margin-left: -70px;
+   padding: 10px;
+   font-family: cursive;
+   color: rgb(19, 18, 18);
+   position: relative;
+
+   
+}
+
+.standard{
+    display: flex;
+
+    
+}
+.box .flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2px;
+}
+.box .flex-box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2px;
+}
+footer{
+    color:  rgb(29, 27, 27);
+    text-align: center;
+    font-family: cursive;
+    background-color:pink;
+    border-radius: 10px;
+    width: 100%;
+}
+.flex-box3 a:hover
+{
+    font-size: 20px;
+    color: white;
+
+}
+.flex-box a:hover{
+    font-size: 20px;
+    color: white;
+    
+}
+.standard p:hover{
+    font-size: 20px;
+    color: white;
+}
+.standard a:hover{
+    font-size: 20px;
+    color: white;
+}

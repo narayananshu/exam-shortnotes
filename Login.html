@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="styleSheet" href="logincss.css">
+</head>
+<body>
+    <div class="container" >
+      <h1>Welcome Login here! </h1>
+        <div class="login-box">
+            <label for="email">Email:</label>
+            <input id="login_id" type="email"  placeholder="Enter name or email address " name="email">
+        </div>
+        <div class="login-box">
+            <label for="password">Password:</label>
+            <input id="login_pass" type="password" placeholder="password" name="password">
+        </div>
+        <button class="btn-box" type="submit" value="submit" onclick="main()">login</button>
+       
+        <a class="url-class" href="register" target="_blank">Register here!</a>
+    </div>
+    <script>
+       
+        function main(){
+
+          let email=document.getElementById('login_id');
+        let password= document.getElementById('login_pass');
+            window.location.href="d:\\Demo project\\Main\\main.html";
+             console.log("working");  
+
+        }
+    </script>
+        <!-- /anchor tsag to link one page to another -->
+      <!-- <a href="d:\\Demo project\\Main\\main.html">
+        <button class="btn-box" type="submit" onclick="main()"> login</button>
+        </a> -->
+</body>
+</html>
